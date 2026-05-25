@@ -13,11 +13,13 @@
     <Content Remove="Components\Pages\curriculo.razor" />
     <Content Remove="Components\Pages\Maia\Contato.razor" />
     <Content Remove="Components\Pages\Maia\Historia.razor" />
+    <Content Remove="Components\Pages\Micae\Contato.razor" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="Components\Pages\Maia\Contato.razor" />
     <Compile Include="Components\Pages\Maia\Historia.razor" />
+    <Compile Include="Components\Pages\Micae\Contato.razor" />
   </ItemGroup>
 
 </Project>
