@@ -1,0 +1,97 @@
+﻿.pagina-inicial {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+.secao-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.banner-principal {
+    width: 70%;
+    padding: 30px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #ff0000, #050914);
+    text-align: center;
+    color: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.subtitulo-banner {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.titulo-banner {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.texto-banner {
+    font-size: 18px;
+}
+
+.secao-destaques {
+    width: 70%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cartao-destaque {
+    padding: 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+    .cartao-destaque:hover {
+        transform: translateY(-5px);
+    }
+
+.cartao-claro {
+    background: white;
+}
+
+.cartao-escuro {
+    background: linear-gradient(135deg, #ff0000, #050914);
+    color: white;
+}
+
+.cartao-destaque-contato {
+    background: #fff7ed;
+}
+
+.numero-destaque {
+    font-size: 14px;
+    font-weight: bold;
+    color: #050914;
+}
+
+.cartao-destaque h2 {
+    margin-top: 15px;
+}
+
+.cartao-destaque a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+@media (max-width: 900px) {
+
+    .secao-destaques {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-principal,
+    .secao-destaques {
+        width: 90%;
+    }
+}

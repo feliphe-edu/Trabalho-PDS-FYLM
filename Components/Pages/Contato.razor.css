@@ -1,0 +1,126 @@
+﻿
+.area-voltar {
+    width: 70%;
+    margin: 25px auto 0;
+}
+
+.botao-voltar {
+    text-decoration: none;
+    background: #1e293b;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .botao-voltar:hover {
+        transform: translateX(-5px);
+    }
+
+.contato {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+/* BANNER */
+
+.secao-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.banner-principal {
+    width: 70%;
+    padding: 35px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #2348d1, #091633);
+    text-align: center;
+    color: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.subtitulo-banner {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.titulo-banner {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.texto-banner {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.conteudo-contato {
+    width: 70%;
+    margin: 35px auto;
+}
+
+.titulo-contato {
+    color: #17348f;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.card-contato {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+    .card-contato h3 {
+        margin-bottom: 15px;
+        color: #17348f;
+    }
+
+.link-contato {
+    text-decoration: none;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .link-contato:hover {
+        transform: translateY(-3px);
+    }
+
+/* CORES */
+
+.whatsapp {
+    background: #25d366;
+}
+
+.email {
+    background: #ea4335;
+}
+
+.github {
+    background: #171515;
+}
+
+.instagram {
+    background: #e1306c;
+}
+
+.discord {
+    background: #5865f2;
+}

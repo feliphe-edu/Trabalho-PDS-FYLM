@@ -1,4 +1,4 @@
-using AppWebPortfolio_.Components;
+using Atividade_PDS.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +13,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
 }
-
-
+app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
 app.UseAntiforgery();
 
 app.MapStaticAssets();
